@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<!-- Lembrar de preencher os campos content -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="Adicionar descrição" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta name="author" content="Samuel da Silva" />
+	<meta property="og:title" content="Expanding Cards" />
+	<meta property="og:description" content="Check out my suspended and interactive card projects" />
+	<meta property="og:image" content="./favicon.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Expanding Cards" />
+	<meta name="twitter:description" content="Check out my suspended and interactive card projects" />
+	<meta name="twitter:image" content="./favicon.png" />
+	<meta name="robots" content="index, follow" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+		integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./public/styles/output.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./favicon.png">
+	<link rel="manifest" href="./favicon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon.png">
+	<link rel="shortcut icon" href="./favicon.ico">
+	<title>Expanding Cards</title>
+</head>
+
+<body class="h-screen bg-gray-100">
+	<main
+		class="relative p-2 gap-2 grid grid-cols-1 grid-rows-5 h-full lg:grid-cols-3 lg:grid-rows-2 lg:p-4 xl:items-stretch xl:gap-6 xl:py-14 xl:px-24 xl:mx-auto xl:grid-cols-12 xl:grid-rows-1">
+		<figure
+			class="border-2 row-span-2 rounded-3xl overflow-hidden flex lg:col-span-3 lg:row-span-1 xl:row-span-1 xl:col-span-9 xl:rounded-large">
+			<img class="image-landscape object-cover w-full h-full" src="https://placehold.co/600x400"
+				alt="Model image obtained from https://placehold.co/. A simple, fast and free image placeholder service.">
+		</figure>
+
+		<figure class="border-2 rounded-3xl overflow-hidden flex xl:col-span-1 xl:rounded-large">
+			<img class="image-landscape object-cover w-full h-full" src="https://placehold.co/600x400"
+				alt="Model image obtained from https://placehold.co/. A simple, fast and free image placeholder service.">
+		</figure>
+
+		<figure class="border-2 rounded-3xl overflow-hidden flex xl:col-span-1 xl:rounded-large">
+			<img class="image-landscape object-cover w-full h-full" src="https://placehold.co/600x400"
+				alt="Model image obtained from https://placehold.co/. A simple, fast and free image placeholder service.">
+		</figure>
+
+		<figure class="border-2 rounded-3xl overflow-hidden flex justify-center w-full xl:col-span-1 xl:rounded-large">
+			<img class="image-landscape object-cover w-full" src="https://placehold.co/600x400"
+				alt="Model image obtained from https://placehold.co/. A simple, fast and free image placeholder service.">
+		</figure>
+	</main>
+
+	<footer class="bg-stone-900 text-gray-50 py-16">
+		<div class="space-y-5 flex justify-center items-center flex-col">
+			<div class="flex flex-col space-y-2 xl:flex-row xl:space-y-0 xl:items-center xl:space-x-2">
+				<h2 class="text-2xl text-center">Photos provided by Pexels</h2>
+				<img src="https://images.pexels.com/lib/api/pexels.png" class="bg-white w-1/4 mx-auto p-2 xl:w-32">
+			</div>
+
+			<a class="flex text-center text-gray-500 text-xs max-w-sm xs:text-xs sm:text-sm md:text-sm xl:text-sm"
+				href="https://github.com/bradtraversy/50projects50days">
+				<p>
+					bradtraversy's 50projects50days Github
+					repository
+				</p>
+				<object data="./svg/cursor-arrow-rays.svg" type="image/svg+xml" class="w-6 h-6"
+					name="cursor-arrow-rays">
+				</object>
+
+			</a>
+
+			<figure class="h-3 flex space-x-3 xs:h-4 sm:h-4 md:h-4 xl:h-6">
+				<img class="h-full cursor-pointer" src="./public/images/icon-facebook.png" alt="Icon alusivo ao Facebook"
+					title="facebook">
+				<img class="h-full cursor-pointer" src="./public/images/icon-twitter.png" alt="Icon alusivo ao Twitter"
+					title="twitter">
+				<img class="h-full cursor-pointer" src="./public/images/icon-g+.png" alt="Icon alusivo ao Google+"
+					title="google+">
+				<img class="h-full cursor-pointer" src="./public/images/icon-linkedin.png" alt="Icon alusivo ao Linkedin"
+					title="linkedin">
+				<img class="h-full cursor-pointer" src="./public/images/icon-github.png" alt="Icon alusivo ao Github"
+					title="github">
+			</figure>
+		</div>
+	</footer>
+
+	<copyright class="flex justify-center items-center text-xs bg-neutral-950 p-4">
+		<p class="text-gray-50 text-center">Copyright &#169;2023 SamColt36. Design by <span
+				class="text-gray-600 uppercase" title="Brad Traversy">bradtraversy</span>
+		</p>
+	</copyright>
+
+	<script src="./public/scripts/jquery-3.7.1.min.js"></script>
+	<script type="module" src="./public/scripts/api.js"></script>
+	<script type="module" src="./public/scripts/dom.js"></script>
+	<script type="module" src="./public/scripts/main.js"></script>
+</body>
+
+</html>
