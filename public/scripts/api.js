@@ -1,4 +1,4 @@
-import { createClient } from "/node_modules/pexels/dist/main.js";
+import { createClient } from "../../node_modules/pexels/dist/main.js";
 
 const client = createClient(
   "IvtJEQNWC4iFB0UrtKN5jCpbamoJjhMUvWRp28gHUn5u2IrHFEQeXOE8"
