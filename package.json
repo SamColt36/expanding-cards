@@ -1,6 +1,26 @@
 {
   "dependencies": {
-    "pexels": "^1.4.0"
+    "css-loader": "^7.1.1",
+    "jquery": "^3.7.1",
+    "mini-css-extract-plugin": "^2.9.0",
+    "pexels": "^1.4.0",
+    "postcss": "^8.4.38",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^3.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
   },
-  "type": "module"
+  "name": "expanding-cards",
+  "description": "Bem-vindo ao meu repositório do GitHub! Aqui você encontrará um repositório dedicado a criar um app web de caixas suspensas com imagens de paisagens naturais. Originalmente esse projeto tem como base [bradtraversy/50projects50days: 50+ mini web projects using HTML, CSS & JS (github.com)](https://github.com/bradtraversy/50projects50days), criação do dev [Brad Traversy](https://github.com/bradtraversy)",
+  "version": "1.0.1",
+  "main": "/src/scripts/main.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch"
+  },
+  "author": "Samuel",
+  "license": "MIT",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0"
+  }
 }

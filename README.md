@@ -1,70 +1,121 @@
 
-# Extrading Cards 
+# 🚀 Projeto: Expanding Cards
+![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)![](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)![](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
+<img title="a Node" alt="Banner NodeJs" src="./docs/images/node-banner.png"
+style="max-width: 600px">   
 
-Bem-vindo ao meu repositório do GitHub! Aqui você encontrará um repositório dedicado a criar um app web de caixas suspensas com imagens de paisagens naturais. Originalmente esse projeto tem como base [bradtraversy/50projects50days: 50+ mini web projects using HTML, CSS & JS (github.com)](https://github.com/bradtraversy/50projects50days), criação do dev [Brad Traversy](https://github.com/bradtraversy)
+## 🌐 Visão Geral
 
+Este projeto é um exemplo simples de criação de *cards* personalizados com imagens randômicas da natureza usando ferramentas como *TailwindCSS* e o *Webpack* e consumindo a [ API Pexels](https://www.pexels.com/api/). O projeto tem como máxima o estudo do *javascript assíncrono* e o consumo de API externas.
+## 📋 Funcionalidades
 
-## Contexto 👨‍💻
+- Layout responsivo para diferentes tamanhos de tela;
+- Mudança dinâmica das imagens;
 
-A ideia principal é a de criar containers com imagens de paisagens naturais. Utilizei com incremento ao projeto inicial os conceitos de *mobile-first* e o consumo da API [pexels/pexels-javascript: Official Javascript library for the Pexels API. (github.com)](https://github.com/pexels/pexels-javascript). Com essa API faço o consumo de imagens de maneira dinâmica e randômica.
-
-
-## Tecnologias Utilizadas 🚀
-
-- HTML5
-- CSS3
-- JavaScript
-- Tailwindcss
-- Node.Js
-
-## Como Executar 🏃‍♀️
-
-Se você deseja visualizar meu portfólio em ação ou colaborar, use no bash:
-- Atráves do HTTPS:
-```bash
-git clone https://github.com/SamColt36/expanding-cards.git
+##  Técnicas e tecnologias utilizadas
+A API da Pexel tem documentação bem leve e de fácil compreensão. A priori é necessário ter uma conta na Pexels para obter sua*API Key*. Logo após, é preciso instalar a biblioteca [pexels - npm (npmjs.com)](https://www.npmjs.com/package/pexels) por meio de:
 ```
-- Atráves do SSH:
-```bash
-git clone git@github.com:SamColt36/expanding-cards.git
+yarn add pexels
+
+or
+
+npm install pexels --save
 ```
-- Ou fazendo o download do arquivo compactado [aqui](https://github.com/SamColt36/expanding-cards/archive/refs/heads/main.zip).
+Por fim, convido a consultar a documentação para mais detalhes.
+## 📁 Clonar repositório
 
-## Mobile First Experience
-Esse projeto de desenvolvimento front-end é totalmente orientado pelo conceito "Mobile First". Isso significa que comecei o design priorizando a experiência mobile. Acredito que ao otimizar inicialmente para dispositivos móveis, garanto um site ágil e eficaz em todos os tamanhos de tela. A abordagem "Mobile First" é a base para um design responsivo que se adapta a todos os dispositivos com perfeição.
+Clone este repositório via Bash, usando:
 
-## Responsividade Simplificada 📱
-Usei uma extensão de navegador essencial para desenvolvedores front-end, o "Mobile Simulator - Responsive Testing Tool" oferece uma maneira eficaz de testar a responsividade do seu site em uma variedade de dispositivos. 
+✅ HTTPS:
 
-🌐 Teste Responsividade: Avalie seu site em 52 dispositivos diferentes, incluindo modelos Android, Apple, tablets e dispositivos especiais.
+```bash
+git clone https://github.com/SamColt36/expanding-cards/
+```
 
-📸 Capturas de Tela: Capture imagens de dispositivos simulados para documentação e compartilhamento fácil.
+✅ SSH:
 
-🎬 Screencasts em GIF: Crie screencasts em formato GIF para análises visuais.
+```bash
+git clone git@github.com:SamColt36/expanding-cards/
+```
 
-🌚 Modo Noturno: Avalie o comportamento do seu site em condições de baixa luminosidade.
+✅ GitHub CLI:
 
-🏷 Versão Gratuita: Uma versão gratuita está disponível com um anúncio não intrusivo.
+```bash
+gh repo clone SamColt36/expanding-cards/
+```
 
-## License
-O projeto usa a licença MIT. Ela é uma licença permissiva utilizada tanto em [software livre](https://pt.wikipedia.org/wiki/Software_livre "Software livre") quanto em [software proprietário](https://pt.wikipedia.org/wiki/Software_propriet%C3%A1rio "Software proprietário").
+✅ Download ZIP.
 
-    Copyright (c) <year> <copyright holders>
-    
-     Permission is hereby granted, free of charge, to any person obtaining a copy
-     of this software and associated documentation files (the "Software"), to deal
-     in the Software without restriction, including without limitation the rights
-     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-     copies of the Software, and to permit persons to whom the Software is
-     furnished to do so, subject to the following conditions:
-    
-     The above copyright notice and this permission notice shall be included in
-     all copies or substantial portions of the Software.
-    
-     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-     AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-     THE SOFTWARE.
+## 📶 Status
+
+O projeto encontra-se em:
+
+> Finalizado
+
+## 🌐 Acessar o projeto
+
+Acesse a última versão disponível pelo [link](https://samcolt36.github.io/expanding-cards/)🔗.
+
+## 📂 Estrutura de diretórios
+
+Foi pensada uma estrutura que segue o seguinte diagrama. Os arquivos compilados por padrão vão para o diretório `docs/`.
+
+    -docs/
+    ---images/
+    -src/
+    ---pages/
+    ---styles/
+    ---scripts/
+    -*.config.js
+    -README.md
+    -LICENSE
+    -.gitignore
+
+## 🔧 Instalação
+
+O projeto utiliza o _webpack_ como empacotador de códigos. O _Webpack_ nada mais é do que um empacotador de módulos/códigos. Seu grande diferencial é que ele foi criado para juntar arquivos de JavaScript que são utilizados dentro de um navegador. Sua principal utilidade é para projetos voltados para web focados em módulos de sua aplicação.
+
+Para fazer a instalação das dependências usadas nesse projeto, tais como: _webpack_ e o _tailwindcss_, é necessário ter o NodeJS instalado. Até a data atual, esse último pode ser obtido através do link:
+
+> [Node.js — Download Node.js® (nodejs.org)](https://nodejs.org/en/download)
+
+<img title="a Node" alt="Banner NodeJs" src="./docs/images/node-banner.png"
+style="max-width: 600px">
+
+Para obter as referências das dependências usadas o arquivo _package.json_ pode ser usado, e para mais detalhes use o _package-lock.json_, ambos na raiz do projeto.
+
+_Foi usada a sintaxe do CJS nos quando aos arquivos de configuração._
+
+## 🛠️ Abrir e rodar
+
+Após as devidas instalações e configurações presentes nos arquivos `*.config.js`, caso queira alterar o projeto é necessário recompilar os arquivos para gerar uma nova saída (por _default_ no diretório `docs/`). Pensando nisso, o arquivo _package.json_ conta com dois _scripts_:
+
+```json
+"scripts": {
+	"build": "webpack --config webpack.config.js",
+	"watch": "webpack --watch"
+},
+```
+
+- **build**: Apenas compila e gera as saídas
+- **watch**: Assiste as mudanças no código e compila.
+
+Por fim e não menos importante, rode no terminal um desses dois _scripts_ usando:
+
+```bash
+$ npm run build
+```
+
+ou
+
+```bash
+$ npm run watch
+```
+
+## 👥 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou relatar problemas.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE ou acesse [MIT License (mit-license.org)](https://mit-license.org/) para obter detalhes.
