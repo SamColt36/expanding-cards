@@ -54,7 +54,7 @@ O projeto encontra-se em:
 
 ## 🌐 Acessar o projeto
 
-Acesse a última versão disponível pelo [link](https://expanding-cards-eight-gray.vercel.app/)🔗.
+Acesse a última versão disponível pelo [link](https://contact-form-a8vdr1466-samcolt36s-projects.vercel.app/)🔗.
 
 ## 📂 Estrutura de diretórios
 
